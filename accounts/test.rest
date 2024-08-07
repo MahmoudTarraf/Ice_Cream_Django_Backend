@@ -1,0 +1,60 @@
+
+POST http://192.168.43.2:8000/signup 
+Content-Type: application/json
+
+{ "username": "testo", "password": "1234e", "email": "testo@gmail.com","phonenumber":"093","location":"syria"}
+
+###
+
+POST http://192.168.43.2:8000/login 
+Content-Type: application/json
+
+{ "username": "testo", "password": "1234e" }
+
+###
+
+GET http://192.168.1.9:8000/getuser/ali@gmail.com
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/login_admin 
+Content-Type: application/json
+
+{ "username": "as", "password": "1234" }
+
+###
+POST http://127.0.0.1:8000/changeusername/
+
+Content-Type: application/json
+
+{"username": "as", "email": "as@gmail.com","newUsername":"bb"}
+
+###
+POST http://127.0.0.1:8000/changeemail/
+
+Content-Type: application/json
+
+{"username": "mahmou224sd", "email": "annnnn@gmail.com","newEmail":"AAAAAAAAA"}
+
+###
+
+POST http://127.0.0.1:8000/changephonenumber/
+
+Content-Type: application/json
+
+{"username": "mahmou224sd", "email": "annnnn@gmail.com","PhoneNumer":"AAAAAAAAA"}
+
+###
+POST http://192.168.1.9:8000/checkemail/
+
+Content-Type: application/json
+
+{"email": "annnnn@gmail.com"}
+###
+
+POST http://192.168.1.9:8000/createadmin/
+
+Content-Type: application/json
+
+{"username":"ahmad","email":"malk1@gmail.com","password":123456}

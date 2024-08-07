@@ -1,0 +1,4 @@
+DELETE  http://192.168.1.10:8000/deleteoffer/
+Content-Type: application/json
+
+{"title":"io","category":"Classic Flavors"}

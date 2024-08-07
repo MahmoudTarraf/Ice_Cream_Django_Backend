@@ -1,0 +1,7 @@
+GET http://127.0.0.1:8000/getOrderByEmail/ad2am@mail.com
+Content-Type: application/json
+#######
+
+POST http://192.168.1.10:8000/updateorder/
+Content-Type: application/json
+{"email":"mikki@gmail.com","operationNumber":"3335555666"}
